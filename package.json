@@ -8,13 +8,19 @@
   },
   "devDependencies": {
     "browser-sync": "^2.10.0",
+    "change": "0.0.0",
     "gulp": "^3.9.0",
+    "gulp-change": "^1.0.0",
+    "gulp-data": "^1.2.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2",
     "jade": "^1.11.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "browser-sync": "browser-sync start --server --files *.html",
-    "jade": "jade -P sample.jade"
+    "jade": "jade -P jade/article.jade",
+    "gulp": "gulp"
   },
   "author": "",
   "license": "ISC"
