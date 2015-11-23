@@ -2,69 +2,110 @@
 <html>
 
 <head>
-  <title>This  is a title</title>
+  <title>This is a title</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/tomorrow-night.css">
+  <link rel="stylesheet" href="css/responsive-nav.css">
+  <link rel="stylesheet" href="css/agency.css">
 </head>
 
 <body>
-  <div class="container-fluid">
 
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Tutorials</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">JavaScript</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">CSS</a></li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Tutorials</a>
       </div>
-    </nav>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <div class="container">
     <div class="row">
-
       <div class="col-xs-12 col-sm-4">
-        <nav>
-          <ul class="nav">
-            <li>block
+        <nav class="nav-collapse">
+          <ul class="list-group">
+            <li class="list"><a href="#">Home</a></li>
+            <li><a href="">index.html</a>
               <ul>
-                <li>index.html</li>
-                <li>div011-hp.html</li>
-                <li>div012-hpl.html</li>
-                <li>div020-hpl.html</li>
-                <li>……</li>
+                <li><a href="">index.html</a></li>
+                <li><a href="">index.html</a></li>
+                <li><a href="">index.html</a></li>
+                <li><a href="">index.html</a></li>
               </ul>
             </li>
-            <li>table
-              <ul>
-                <li>index.html</li>
-                <li>table010.html</li>
-                <li>table001.html</li>
-                <li>table021.html</li>
-                <li>……</li>
-              </ul>
-            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
       </div>
 
-      <div class="col-xs-12 col-sm-4">a</div>
+      <div class="col-xs-12 col-sm-8">
+        <div class="panel panel-default">
+          <h1>titile</h1>
+
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="680" height="480" class="embed-responsive-item" src="https://www.youtube.com/embed/0FnqnsqZrWQ"></iframe>
+          </div>
+
+          <h2>aa</h2>
+
+          <p>
+            JavaScript’s console.log() will print out a message:
+          </p>
+          <pre><code class="javascript">console.log("Hello Console.");<br>console.log("Hello Console.");</code></pre>
+          <pre>
+         <code>
+           function $initHighlight(block, cls) {
+           try {
+           if (cls.search(/\bno\-highlight\b/) != -1)
+           return process(block, true, 0x0F) +
+           ' class=""';
+           } catch (e) {
+           /* handle exception */
+           }
+           for (var i = 0 / 2; i < classes.length; i++) {
+           if (checkCondition(classes[i]) === undefined)
+           return /\d+[\s/]/g;
+           }
+           }
+         </code>
+        </pre>
+        </div>
+      </div>
 
     </div>
-
-
   </div>
+
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="javascript/bootstrap.js"></script>
+<script src="javascript/highlight.pack.js"></script>
+<script src="javascript/responsive-nav.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>var nav = responsiveNav(".nav-collapse");</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69949741-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </html>
