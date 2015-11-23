@@ -1,0 +1,50 @@
+<h3>JavaScript's Object is a data type that have properties</h3>
+You can create an Object, which has so-called <strong>properties</strong>.
+<pre class="lang:default decode:true ">var book = {
+  title: "JavaScript: The Good Parts",
+  author: "Douglas Crockford",
+  pages: 172 //DO NOT put, for the last property
+};
+
+console.log(book);
+</pre>
+<pre class="theme:console lang:default decode:true ">Object {title: "JavaScript: The Good Parts", author: "Douglas Crockford", pages: 172}</pre>
+A property consists of a property name, and property value.
+
+In the above example, below are the properties:
+<table>
+  <tbody>
+  <tr style="background-color: #6495ed;">
+    <th>property name</th>
+    <th>property value</th>
+  </tr>
+  <tr>
+    <td>title</td>
+    <td>"JavaScript: The Good Parts"</td>
+  </tr>
+  <tr>
+    <td>author</td>
+    <td>"Douglas Crockford"</td>
+  </tr>
+  <tr>
+    <td>pages</td>
+    <td>172</td>
+  </tr>
+  </tbody>
+</table>
+
+<h3>You can access to property values by object.propertyName, or object["propertyName"]</h3>
+
+
+<pre class="lang:default decode:true ">var book = {
+  title: "JavaScript: The Good Parts",
+  author: "Douglas Crockford",
+  pages: 172 //DO NOT put, for the last property
+};
+
+console.log(book.title);
+console.log(book["title"]);</pre>
+
+
+<pre class="theme:console lang:default decode:true ">JavaScript: The Good Parts
+JavaScript: The Good Parts</pre>

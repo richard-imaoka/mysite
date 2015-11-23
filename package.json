@@ -13,7 +13,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "browser-sync": "browser-sync start --server --files *.html"
+    "browser-sync": "browser-sync start --server --files *.html",
+    "jade": "jade -P sample.jade"
   },
   "author": "",
   "license": "ISC"
