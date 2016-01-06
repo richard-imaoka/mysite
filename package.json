@@ -4,7 +4,8 @@
   "description": "my website system",
   "main": "index.js",
   "dependencies": {
-    "browser-sync": "^2.10.0"
+    "browser-sync": "^2.10.0",
+    "harp": "^0.20.1"
   },
   "devDependencies": {
     "browser-sync": "^2.10.0",
@@ -20,7 +21,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "browser-sync": "browser-sync start --server --files *.html",
     "jade": "jade -P jade/article.jade",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "harp": "harp"
   },
   "author": "",
   "license": "ISC"
