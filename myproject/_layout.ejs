@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <%- partial( "_partials/head/_meta" ) %>
+    <%- partial( "_partials/head/_css" ) %>
+    <%- partial( "_partials/head/_ie9scripts" ) %>
+    <%- partial( "_partials/head/_icons" ) %>
+  </head>
+  <body>
+    <%- partial( "_partials/body/_header" ) %>
+    <section id="blog" class="container">
+      <%- partial( "_partials/body/_blog-whole-title" ) %>
+      <div class="blog">
+        <div class="row">
+          <%- partial( "_partials/body/_blog-main" ) %>
+          <%- partial( "_partials/body/_aside" ) %>
+        </div>
+      </div>
+    </section>
+
+    <%- partial( "_partials/body/_bottom" ) %>
+
+    <%- partial( "_partials/body/_footer" ) %>
+
+  </body>
+  <%- partial( "_partials/end/_scripts" ) %>
+</html>

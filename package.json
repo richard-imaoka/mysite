@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "browser-sync": "^2.10.0",
-    "harp": "^0.20.1"
+    "harp": "^0.20.1",
+    "hexo-cli": "^0.2.0"
   },
   "devDependencies": {
     "browser-sync": "^2.10.0",
