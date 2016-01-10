@@ -7,15 +7,26 @@
     <%- partial( "_partials/head/_icons" ) %>
   </head>
   <body>
-    <%- partial( "_partials/body/_header" ) %>
+  <%- partial( "_partials/body/_header" ) %>
     <section id="blog" class="container">
       <%- partial( "_partials/body/_blog-whole-title" ) %>
       <div class="blog">
         <div class="row">
-          <%- partial( "_partials/body/_blog-main" ) %>
+          <div class="col-md-8">
+            <div class="blog-item">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 blog-content">
+                  <%- yield %>
+                </div>
+              </div>
+            </div><!--/.blog-item-->
+          </div><!--/.col-md-8-->
+
+          <%- partial( "_partials/body/_aside" ) %>
         </div>
       </div>
     </section>
+
 
   </body>
   <%- partial( "_partials/end/_scripts" ) %>
